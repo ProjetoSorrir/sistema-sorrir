@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  technitium:
+    image: technitium/dns-server
+    container_name: technitium_dns
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "5380:5380/tcp"
+    volumes:
+      - technitium_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  technitium_data:
