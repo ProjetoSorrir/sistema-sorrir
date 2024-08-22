@@ -208,13 +208,15 @@
                 @enderror
             </div>
             <div class="col-span-12">
-                <button type="submit" class="primary-button w-full mt-2 uppercase font-bold">Finalizar
+                <button type="submit"
+                    class="animated-shine relative flex justify-center items-center gap-2 mt-2 mx-auto bg-we-highlight rounded-lg text-white font-bold py-2 px-3 w-full text-center">Finalizar
                     cadastro</button>
             </div>
             <p class="col-span-12 mx-auto text-gray-500 text-center w-[350px] max-w-full"
                 style="border: 1px dashed #0000002e; border-radius: 7px; padding: 14px 0 10px; line-height: 15px; font-size: 17px;">
                 Você já tem conta criada? <br>
-                <a href="{{ route('login') }}" class="font-semibold leading-6 text-primary">Clique aqui para
+                <a href="{{ route('login') }}" class="font-semibold leading-7 text-primary"
+                    style="color: #000;">Clique aqui para
                     acessar!</a>
             </p>
         </form>
@@ -224,7 +226,7 @@
         {{-- <div class="col-span-12 bg-[#fff3cd] border border-1 border-[#f6e8c4] text-[#8b6c27] text-xs p-2">
             <p>Informe os dados corretos para recebimento das premiações</p>
         </div> --}}
-        <a href="https://3613e03b7c2de35a295c50584bbb6b52.cdn.bubble.io/f1708045124278x654216989445584900/Pol%C3%ADtica%20Institucional%20de%20Privacidade%20e%20Prote%C3%A7%C3%A3o%20de%20Dados%20Externa.pdf"
+        <a href="#"
             class="col-span-12 mt-3 text-blue-500 underline cursor-pointer text-xs text-center">Políticas de
             Privacidade</a>
     </div>

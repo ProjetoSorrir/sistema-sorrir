@@ -71,7 +71,9 @@
                     </label>
                 </div>
                 <div class="col-span-12 mt-2">
-                    <button type="submit" class="primary-button w-full uppercase font-bold">Acessar conta</button>
+                    <button type="submit"
+                        class="animated-shine relative flex justify-center items-center gap-2 mt-2 mx-auto bg-we-highlight rounded-lg text-white font-bold py-2 px-3 w-full text-center">Acessar
+                        conta</button>
                     @if (Route::has('forget.password'))
                         <a href="{{ route('forget.password') }}"
                             class="primary-button min-w-full grid text-center mt-2 uppercase font-bold"
