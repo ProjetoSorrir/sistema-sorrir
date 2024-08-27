@@ -10,11 +10,11 @@ class UserObserver
     public function creating(User $user)
     {
         // Ensure we have a unique referral code
-        do {
-            $referralCode = Str::random(10); // Generate a random string.
-        } while (User::where('referral_code', $referralCode)->exists()); // Check if it's unique.
+        // do {
+        //     $referralCode = Str::random(10); // Generate a random string.
+        // } while (User::where('referral_code', $referralCode)->exists()); // Check if it's unique.
 
-        $user->referral_code = $referralCode;
+        // $user->referral_code = $referralCode;
     }
     /**
      * Handle the User "created" event.

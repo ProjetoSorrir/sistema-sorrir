@@ -154,10 +154,10 @@ class Register extends Component
         ];
 
         // Chama o helper para enviar o webhook
-        $webhookUrl = 'https://growthphantom.app.n8n.cloud/webhook/cf299562-6071-450d-945a-edb2588ba3cf';
-        WebhookHelper::sendWebhook($webhookUrl, $data);
+        //$webhookUrl = 'https://growthphantom.app.n8n.cloud/webhook/cf299562-6071-450d-945a-edb2588ba3cf';
+        //WebhookHelper::sendWebhook($webhookUrl, $data);
 
-        Log::info('Send Webhook Login to n8n REGISTER ==> BRASCAP', ['data' => $data]);
+       // Log::info('Send Webhook Login to n8n REGISTER ==>', ['data' => $data]);
     }
 
     public function isValidCPF($cpf)
